@@ -1,0 +1,60 @@
+*{
+    margin: 10px; 
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid gray ;
+    border-radius: 10px 10px 30px;
+    width: 35%;
+    margin-left: 35%;
+    padding: 0.5%;
+    font-family: serif;
+    background-color: rgb(242, 245, 248);
+}
+h1 {
+    text-align: center;
+    border: 1px solid gray ;
+    border-radius: 10px 10px 20px;
+    background-color: rgb(204, 203, 203);
+    color: white;
+    padding: 1%;
+    font-family: "Gill Sans", sans-serif;
+}
+.login-btn {
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    height: 28px;
+    width: 120px;
+    border-radius: 5%;
+    background-color: rgb(204, 203, 203);
+    color:white;
+    border: 2px solid rgb(204, 203, 203) ;
+    border-radius: 10px 10px 10px;
+    transition: all .25s ease;
+    transition-duration: 250ms;
+    
+}
+button:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+.registration-btn {
+    border: none;
+    cursor: pointer;
+    height: 28px;
+    width: 120px;
+    border-radius: 5%;
+    background-color: rgb(204, 203, 203);
+    color:white;
+    border: 1px solid rgb(204, 203, 203) ;
+    border-radius: 10px 10px 10px;
+    margin: 7px;
+}
+.form-controls {
+    border: 1px solid gray ;
+    border-radius: 5px 5px 5px;
+    color:black;
+}

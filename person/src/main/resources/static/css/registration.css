@@ -1,0 +1,76 @@
+* {
+    margin: 10px;
+}
+
+.hidden{
+    visibility: hidden;
+    color: red;
+    font-size: 12px;
+    font-family: "Gill Sans", sans-serif;
+    padding: 0px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid gray ;
+    border-radius: 10px 10px 30px;
+    width: 35%;
+    margin-left: 35%;
+    padding: 0.5%;
+    font-family: serif;
+    background-color: rgb(242, 245, 248);
+    font-family: sans-serif;
+}
+h1 {
+    font-family: "Gill Sans", sans-serif;
+    border: 1px solid gray ;
+    border-radius: 10px 10px 20px;
+    background-color: rgb(204, 203, 203);
+    color: white;
+    padding: 1%;
+}
+.btn-back {
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    height: 28px;
+    width: 120px;
+    border-radius: 5%;
+    background-color: rgb(204, 203, 203);
+    color:white;
+    border: 2px solid rgb(204, 203, 203) ;
+    border-radius: 10px 10px 10px;
+    transition: all .25s ease;
+    transition-duration: 250ms;
+    margin: 7px;
+}
+.btn-reg {
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    height: 28px;
+    width: 120px;
+    border-radius: 5%;
+    background-color: rgb(204, 203, 203);
+    color:white;
+    border: 2px solid rgb(204, 203, 203) ;
+    border-radius: 10px 10px 10px;
+    transition: all .25s ease;
+    transition-duration: 250ms;
+    margin: 7px;
+}
+button:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+input {
+    border: 1px solid gray ;
+    border-radius: 5px 5px 5px;
+    color:black;
+}
+#select-name-id {
+    border: 1px solid gray ;
+    border-radius: 5px 5px 5px;
+    color:black;
+}

@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://db_postgres:5432/postgres
+    username: postgres
+    password: root
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://discovery-server:8761/eureka
+  instance:
+    prefer-ip-address: true
+
+app:
+  jwtSecret: fediaasdaswdasdLlsdaaasdasdasdasdDSAdwqdavsgvFWEFQCASASCCXZC
+  jwtExpirationMs: 86400000

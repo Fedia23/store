@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  main:
+    allow-circular-references: true
+  jpa:
+    hibernate:
+      generate-ddl:
+        ddl-auto: update
+app:
+  jwtSecret: fediaasdaswdasdLlsdaaasdasdasdasdDSAdwqdavsgvFWEFQCASASCCXZC
+  jwtExpirationMs: 86400000

@@ -1,0 +1,43 @@
+:root {
+    --color1: rgb(204, 203, 203);
+    --color2: #8d9095;
+}
+
+header {
+    padding: 100px 0;
+    background: var(--color1);
+    background: -moz-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
+    background: -webkit-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
+    background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=1);
+}
+
+#greeting-id {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Gill Sans", sans-serif;
+}
+.itd_play {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(59, 58, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 30px auto;
+}
+.itd_play:hover {
+    background-color: rgb(154, 154, 157);
+}
+.itd_triangle {
+    margin-right: -3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent rgb(206, 203, 203);
+}
