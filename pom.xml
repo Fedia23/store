@@ -12,6 +12,7 @@
         <module>config</module>
         <module>discovery</module>
         <module>person</module>
+        <module>goods</module>
     </modules>
 
     <properties>

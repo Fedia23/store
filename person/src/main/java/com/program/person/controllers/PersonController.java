@@ -27,11 +27,6 @@ public class PersonController {
         return personService.getPersonById(id);
     }
 
-    @GetMapping("getAllPerson")
-    public List<PersonDTO> getAllPerson() {
-        return personService.getAllPersons();
-    }
-
     @DeleteMapping("{id}")
     public void deletePerson(@PathVariable("id") long id) {
         personService.deletePerson(id);
